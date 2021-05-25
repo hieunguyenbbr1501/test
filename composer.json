@@ -1,0 +1,54 @@
+{
+    "name": "hieunguyenbbr1501/test",
+    "description": "",
+    "keywords": [
+        "hieunguyenbbr1501",
+        "test"
+    ],
+    "homepage": "https://github.com/hieunguyenbbr1501/test",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Hieu Nguyen",
+            "email": "hieunguyenbbr.1501@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hieunguyenbbr1501\\Test\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hieunguyenbbr1501\\Test\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hieunguyenbbr1501\\Test\\TestServiceProvider"
+            ],
+            "aliases": {
+                "Test": "Hieunguyenbbr1501\\Test\\TestFacade"
+            }
+        }
+    }
+}
