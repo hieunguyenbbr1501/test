@@ -17,7 +17,7 @@ class TestServiceProvider extends ServiceProvider
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'test');
          $this->loadViewsFrom(__DIR__.'/../src/resources/views', 'test');
          $this->loadMigrationsFrom(__DIR__.'/../src/database/migrations');
-         $this->loadRoutesFrom(__DIR__.'/src/routes.php');
+//         $this->loadRoutesFrom(__DIR__.'/src/routes.php');
 
         if ($this->app->runningInConsole()) {
             $this->publishes([
