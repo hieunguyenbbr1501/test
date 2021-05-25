@@ -9,7 +9,6 @@
     "license": "MIT",
     "type": "library",
     "minimum-stability": "dev",
-    "version": "v1.1",
     "authors": [
         {
             "name": "Hieu Nguyen",
