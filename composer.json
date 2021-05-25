@@ -8,6 +8,8 @@
     "homepage": "https://github.com/hieunguyenbbr1501/test",
     "license": "MIT",
     "type": "library",
+    "minimum-stability": "dev",
+    "version": "v1.0",
     "authors": [
         {
             "name": "Hieu Nguyen",
